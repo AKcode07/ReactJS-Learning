@@ -1,9 +1,10 @@
-
+import NewMethod from "./NewMethod";
 function App() {
   return (
-    <div className="App">
-      <h1>Basic WebPage</h1>
-    </div>
+    <>
+      <h1>Basic React App</h1>
+      <NewMethod />
+    </>
   );
 }
 
